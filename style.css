@@ -9,6 +9,10 @@ body {
   border-radius: 4px;
 }
 
+#input:focus {
+  outline: 0;
+}
+
 .no-padding-right{
   padding-right: 2px;
 }
@@ -27,8 +31,13 @@ body {
   border-radius: 4px;
   width: 100%;
   margin-top: 4px;
-  margin-right: 0;
+  margin-right: 0;      
 }
+
+#button1:focus, #button2, #button3, #button4, #button5, #button6, #button7, #button8, #button9, #button0 {
+  outline: 0;
+}
+
 
 #operator1, #operator2, #operator3, #operator4  {
   background-color: orange;
@@ -40,6 +49,10 @@ body {
 
 }
 
+#operator1:focus, #operator2, #operator3, #operator4  {
+  outline: 0;
+}
+
 #operator5 {
   width: 100%;
   text-align: center;
@@ -47,6 +60,10 @@ body {
   margin-top: 4px;
   margin-right: 0;
 
+}
+
+#operator5:focus {
+outline: 0;
 }
 
 #clear {
@@ -59,6 +76,10 @@ body {
 
 }
 
+#clear:focus {
+  outline: 0;
+}
+
 #total {
   display: block;
   margin: 0 auto;
@@ -66,6 +87,9 @@ body {
   text-align: center;
   width: 100%;
   border-radius: 4px;
-  margin-top: 4px;
-  
+  margin-top: 4px; 
+}
+
+#total:focus {
+  outline: 0;
 }
