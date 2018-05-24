@@ -8,34 +8,37 @@
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan Script' rel='stylesheet'>
+
   </head>
 
 
-<body style="background: url(https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);">
+  <body>
 
-  <form name="Calc">
-    <div class="container-fluid">
-
-      <div class="row">
-        <div class="col-md-8 offset-md-2">
-          <input type="text" name="Input" size="24" id="input"></div>
+    <form name="Calc">
+      <div class="container-fluid">
+        <h1 style="font-family: Kaushan Script; color: white;"><strong>Calculator</strong></h1>
+        <div class="row">
+          <div class="col-md-8 offset-md-2">
+            <input type="text" name="Input" size="24" id="input"></div>
         </div>
 
-      <div class="row">
-        <div class="col-md-2 offset-md-2 no-padding-right">
-          <input type="button" name="one" value="1" id="button1"></div>
-        <div class="col-md-2 no-padding"><input type="button" name="two" value="2" id="button2" ></div>
-        <div class="col-md-2 no-padding"><input type="button" name="three" value="3" id="button3"></div>
-        <div class="col-md-2 no-padding-left"><input type="button" name="plus" value="+" id="operator1"></div>
-      </div>
+        <div class="row">
+          <div class="col-md-2 offset-md-2 no-padding-right">
+            <input type="button" name="one" value="1" id="button1"></div>
+          <div class="col-md-2 no-padding"><input type="button" name="two" value="2" id="button2" ></div>
+          <div class="col-md-2 no-padding"><input type="button" name="three" value="3" id="button3"></div>
+          <div class="col-md-2 no-padding-left"><input type="button" name="plus" value="+" id="operator1"></div>
+        </div>
 
-      <div class="row">
-         <div class="col-md-2 offset-md-2 no-padding-right">
-           <input type="button" name="four" value="4" id="button4"></div>
-         <div class="col-md-2 no-padding"><input type="button" name="five" value="5" id="button5"></div>
-         <div class="col-md-2 no-padding"><input type="button" name="six" value="6" id="button6"></div>
-         <div class="col-md-2 no-padding-left"><input type="button" name="minus" value="-" id="operator2"></div>
+        <div class="row">
+          <div class="col-md-2 offset-md-2 no-padding-right">
+            <input type="button" name="four" value="4" id="button4"></div>
+          <div class="col-md-2 no-padding"><input type="button" name="five" value="5" id="button5"></div>
+          <div class="col-md-2 no-padding"><input type="button" name="six" value="6" id="button6"></div>
+          <div class="col-md-2 no-padding-left"><input type="button" name="minus" value="-" id="operator2"></div>
         </div>
 
       <div class="row">
@@ -57,17 +60,21 @@
       <div class="row">
         <div class="col-md-8 offset-md-2">
           <input type="button" id="total" name="DoIt" value="TOTAL" ></div>
+      </div>
 
+      <br>
+
+      <div class="text-center bg-light col-md-8 offset-md-2">
+        Copyright@2018, Karen & Hari
       </div>
 
     </div>
-
   </form>
 
-<!-- Js -->
+<!-- Bootstrap -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+  <script src="index.js"></script>
 </body>
-</html>  
+</html>
