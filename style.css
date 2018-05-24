@@ -46,6 +46,10 @@ body {
   font-weight: bold;
 }
 
+#button1:focus, #button2:focus, #button3:focus, #button4:focus, #button5:focus, #button6:focus, #button7:focus, #button8:focus, #button9:focus, #button0:focus {
+  outline: 0;
+}
+
 #button1:hover, #button2:hover, #button3:hover, #button4:hover, #button5:hover, #button6:hover, #button7:hover, #button8:hover, #button9:hover, #button0:hover {
     background-color: black;
    /* border: 2px solid #f44336; */
