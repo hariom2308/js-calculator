@@ -1,11 +1,17 @@
 body {
-	/*background-color: rgba(169, 169, 169, 0.3); */
-	font-family: Kaushan Script;
-
+	font-family: "Kaushan Script", Arial, sans-serif;
   background-size: cover;
-
   padding-top: 80px;
   background-image: url("https://media.giphy.com/media/VZdzF49jGYtJ6/giphy.gif") ;
+}
+
+h1 {
+  font-family: "Kaushan Script", Arial, sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 32px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 #input {
@@ -35,7 +41,7 @@ body {
   padding-left: 2px;
   padding-right: 2px;
 }
-#button1, #button2, #button3, #button4, #button5, #button6, #button7, #button8, #button9, #button0 {
+.buttonA {
   background-color: #222222;
   text-align: center;
   border-radius: 4px;
@@ -46,22 +52,16 @@ body {
   font-weight: bold;
 }
 
-#button1:focus, #button2:focus, #button3:focus, #button4:focus, #button5:focus, #button6:focus, #button7:focus, #button8:focus, #button9:focus, #button0:focus {
-  outline: 0;
+.buttonA:hover {
+  background-color: black;
 }
 
-#button1:hover, #button2:hover, #button3:hover, #button4:hover, #button5:hover, #button6:hover, #button7:hover, #button8:hover, #button9:hover, #button0:hover {
-    background-color: black;
-   /* border: 2px solid #f44336; */
-}
-
-#button0:active, #button1:active, #button2:active, #button3:active, #button4:active, #button5:active, #button6:active, #button7:active, #button8:active, #button9:active, #operator1:active, #operator2:active, #operator3:active, #operator4:active, #operator5:active, #clear:active, #total:active {
-
+.buttonA:active, .buttonB:active, #clear:active, #total:active {
   box-shadow: 0 5px #126;
   transform: translateY(4px);
 }
 
-#operator1, #operator2, #operator3, #operator4  {
+.buttonB {
   background-color: orange;
   text-align: center;
   border-radius: 4px;
@@ -69,14 +69,11 @@ body {
   width: 100%;
   margin-right: 2px;
   font-weight: bold;
-
-}
-
-#operator1:focus, #operator2, #operator3, #operator4  {
   outline: 0;
 }
 
-#operator1:hover, #operator2:hover, #operator3:hover, #operator4:hover  {
+
+.buttonB:hover  {
   background-color: #CCCC00;
 }
 
@@ -131,13 +128,4 @@ background-color: #000000;
 
 #total:hover {
   background-color: #00FF00;
-}
-
-h1{
-  font-family: Kaushan Script;
-  text-align: center;
-  font-size: 32px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-
 }
